@@ -1,0 +1,19 @@
+{
+  "name": "type_cy_project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "cypress": "^14.5.3",
+    "typescript": "^5.9.2"
+  }
+}
